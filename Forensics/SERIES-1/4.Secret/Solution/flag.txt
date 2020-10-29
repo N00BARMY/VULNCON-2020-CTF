@@ -1,0 +1,1 @@
+vulncon{/etc/.secret/file/is/here/thisissupersecretfile}

@@ -1,0 +1,10 @@
+useradd -m user
+echo 'user:dmltPmVtYWNzCg==' | chpasswd
+echo 'user ALL=(ALL) NOPASSWD:/usr/bin/docker' | EDITOR='tee -a' visudo
+echo 'AllowUsers user' >> /etc/ssh/sshd_config
+# docker build
+docker build -t vulncon_chall .
+# docker run init in bashrc
+if [[ ! -z $SSH_CONNECTION ]]; then
+    sudo docker run -it --rm --network none vulncon_chall; exit
+fi

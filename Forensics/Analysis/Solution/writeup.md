@@ -1,0 +1,2 @@
+Open using sqlite3 or any other tool for opening sqlite files and open `places.sqlite` and analyze, you will find several links. Just visit https://controlc.com/ed6efdcc
+link and you will find one password and you will find another link https://mega.nz/#!740xBYDJ!uDHsqALqlyLfaIdzoGxJYaqoO9_huH7vCqJgZoL6e88 . You will find the `important_data.file` and in the `places.sqlite` file there you can see **veracrypt**, this is veracrypt file. Install `veracrypt` and use the password given in the previous link and you will get the flag.
